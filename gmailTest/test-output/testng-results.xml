@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47266" started-at="2021-03-10T12:20:23 BDT" finished-at="2021-03-10T12:21:10 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47266" started-at="2021-03-10T12:20:23 BDT" finished-at="2021-03-10T12:21:10 BDT">
+      <class name="gmail.MailSend">
+        <test-method status="PASS" signature="browser_opening()[pri:0, instance:gmail.MailSend@22eeefeb]" name="browser_opening" is-config="true" duration-ms="11279" started-at="2021-03-10T12:20:23 BDT" finished-at="2021-03-10T12:20:34 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_opening -->
+        <test-method status="PASS" signature="login_into_gmail1()[pri:1, instance:gmail.MailSend@22eeefeb]" name="login_into_gmail1" duration-ms="2099" started-at="2021-03-10T12:20:34 BDT" finished-at="2021-03-10T12:20:36 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_into_gmail1 -->
+        <test-method status="PASS" signature="mail_sending()[pri:2, instance:gmail.MailSend@22eeefeb]" name="mail_sending" duration-ms="31983" started-at="2021-03-10T12:20:36 BDT" finished-at="2021-03-10T12:21:08 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mail_sending -->
+        <test-method status="PASS" signature="browser_closing()[pri:0, instance:gmail.MailSend@22eeefeb]" name="browser_closing" is-config="true" duration-ms="1833" started-at="2021-03-10T12:21:08 BDT" finished-at="2021-03-10T12:21:10 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_closing -->
+      </class> <!-- gmail.MailSend -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
