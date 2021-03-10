@@ -47,7 +47,10 @@ public class MailSend{
 	@AfterClass
 	public void browser_closing() {
 		driver.findElement(By.xpath("//div[@class='gb_Oa gb_cd gb_ng gb_i gb_Bf']/div/a")).click();
-		driver.findElement(By.xpath("//a[@id='gb_71' and contains(text(),'Sign out')]")).click();
+		driver.findElement(By.xpath("//a[@id='gb_71' and contains(text(),'Sign out')]")).click();                 
+                driver.close();
+
+
 		
 		
 	}
